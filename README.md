@@ -11,15 +11,6 @@
 
 
 My goal & motivation is to build a weather dashboard application utilizaing a third party API (OpenWeatherMap)  to genratate a five day weather forecast that retrieves weather data for cities. I also utilized localStorage to store persistent data. 
-Attached below are screenshots of my deployed portfolio website
-
-![weatherReport](assets/Readme1.png)
-
-![weatherReport](assets/Readme2.png)
-
-![Portfolio](images/Readme3.png)
-
-![Portfolio](images/Readme4.png)
 
 
 ## Installation
@@ -31,5 +22,5 @@ This page was accomplished with technologies such as Javascript, HTML & CSS. I a
 
  ## Links
 
- Code link - https://github.com/Awele1111/Weather-dashboard
- Demo Link - https://awele1111.github.io/Weather-dashboard/
+ Code link - https://github.com/Awele1111/Tech-Blog
+ Demo Link - https://awele1111.github.io/Tech-Blog/
