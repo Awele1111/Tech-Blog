@@ -1,4 +1,4 @@
-<div class = "card" >
+{{!-- <div class = "card" >
     <div class = "card-header" >
         <h2>login</h2>
     </div>
@@ -14,4 +14,39 @@
     </form>
 </div>
 
-<script src="js/login.js"></script>
+<script src="js/login.js"></script> --}}
+
+
+<form class="login-form">
+    <div class="mb-3">
+        <label for="username-login" class="form-label">Username:</label>
+        <input type="text" id="username-login" />
+    </div>
+    <div class="mb-3">
+        <label for="password-login" class="form-label">Password:</label>
+        <input type="password" id="password-login" />
+    </div>
+    <div class="d-grid gap-2 col-1">
+        <button type="submit" id="login-btn" class="btn btn-secondary">Login</button>
+    </div>
+</form>
+
+<form class="signup-form">
+    <div class="mb-3">
+        <label for="username-signup" class="form-label">Username:</label>
+        <input type="text" id="username-signup" />
+    </div>
+    <div class="mb-3">
+        <label for="email-signup" class="form-label">Email:</label>
+        <input type="text" id="email-signup" />
+    </div>
+    <div class="mb-3">
+        <label for="password-signup" class="form-label">Password:</label>
+        <input type="password" id="password-signup" />
+    </div>
+    <div class="d-grid gap-2 col-1">
+        <button type="submit" id="signup-btn" class="btn btn-secondary">Sign Up</button>
+    </div>
+</form>
+
+<script src="/javascript/login.js"></script>

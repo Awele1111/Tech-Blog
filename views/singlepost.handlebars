@@ -1,0 +1,36 @@
+{{!-- <div class = "card" >
+    <div class = "card-header" >
+        <h2>signup</h2>
+    </div>
+    <form class = "card-body"> 
+        <div>
+            <label >username</label>
+            <input type="text">
+            <label >password</label>
+            <input type="password">
+        
+        </div>
+        <button type="submit" class="btn">signup</button>
+        
+    </form>
+</div>
+
+<script src="js/login.js"></script> --}}
+
+
+{{> post post}}
+
+{{> comments post.comments}}
+
+{{#if loggedIn}}
+<form class="comment-form">
+    <div>
+        <textarea name="comment-body" id="create-comment"></textarea>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-secondary">Add Comment</button>
+    </div>
+</form>
+{{/if}}
+
+<script src="/javascript/comment.js"></script>
