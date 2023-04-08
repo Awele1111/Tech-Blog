@@ -95,7 +95,11 @@ router.post("/", withAuth, (req, res) => {
         body: req.body.body,
         user_id: req.session.user_id,
     })
-    .then(dbPostData => res.json(dbPostData))
+    .then(dbPostData => {
+        console.log(dbPostData);
+        res.json(dbPostData)
+    }
+    )
     .catch(err => {
         res.status(500).json(err);
     });

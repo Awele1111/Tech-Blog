@@ -10,11 +10,13 @@ async function newPostFormHandler(event) {
         headers: { "Content-Type": "application/json" }
     });
 
-    if (response.ok) {
-        document.location.replace("/dashboard");
-    } else {
-        alert(response.statusText);
-    };
+    console.log(response);
+
+//     if (response.ok) {
+//         document.location.replace("/dashboard");
+//     } else {
+//         alert(response.statusText);
+//     };
 };
 
 // event listener
