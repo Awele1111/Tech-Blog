@@ -138,6 +138,10 @@ router.get("/post/:id", (req, res) => {
     });
 });
 
+router.get('/dashboard', (req, res) => {
+    res.render('dashboard')
+})
+
 // login 
 router.get("/login", (req, res) => {
     // if logged in, redirect to homepage
